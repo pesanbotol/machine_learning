@@ -1,7 +1,7 @@
 # Machine Learning
 This is the machine learning part of our capstone project. Because we have 2 ML people in this capstone team. So we split the tasks, but we constantly ask and help each other when the one of us stuck.
 - [Rajendra Salim](https://github.com/rajensalim "Click to go to this link") (M7116K1458), working on the [Sexual/Inappropriate Image Detection Model](#1-filtering-sexualinappropriate-image "Goto this model explanation").
-- [Ilyam Faisal](https://github.com/ilyamfaisal28 "Click to go to this link") (M2179F1741), working on the [Landmark Recognition Model](#2-landmark-recognition-especially-indonesian-landmark "Goto this model explanation").
+- [Ilyam Faisal](https://github.com/ilyamfaisal28 "Click to go to this link") (M2179F1741), working on the [Landmark Recognition Model](#2-landmark-recognition "Goto this model explanation").
 
 So as you can see above, there are 2 Machine Learning features in our app: 
 ### 1. Filtering Sexual/Inappropriate Image
