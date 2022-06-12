@@ -18,7 +18,7 @@ that dataset, which is this: https://storage.googleapis.com/gld-v2/web/index.htm
 This is our approach:
 1. Open the website, then click on 'Explore' and find Indonesia
 2. After that, do inspect element to that website and find the JSON url (for Indonesia region the JSON name is ID.json, so find this). Here for the detail:
-[Inspect Element](Images_For_Readme/inspect_element.png) 
+![Inspect Element](Images_For_Readme/inspect_element.png) 
 3. Then, run the notebook on Google Colab for scraping each url of all image.
 
 
