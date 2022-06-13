@@ -26,6 +26,6 @@ This is the explanation of our approach:
 6. Resize images to 800x800 using notebook that included in Landmark Recognition Model folder above.
 7. Download resized images, then rename all images and folders into number, this is for the id later use in code. The renamed dataset is already in 'Landmark Recognition Model' folder above.
 8. Make csv file according to each file name. You can see csv file like in 'Landmark Recognition Model' --> 'Dataset_Indonesian_Landmark' folder above.
-9. Zip that renamed dataset, then upload it on kaggle.
+9. Zip that renamed dataset and the csv files in one file, then upload it on kaggle.
 10. Use that dataset in source code.
 
