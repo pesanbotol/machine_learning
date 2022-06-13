@@ -15,15 +15,16 @@ How can we get the Indonesian landmarks dataset only?
 We got this by scraping to the website version of
 that dataset, which is this: https://storage.googleapis.com/gld-v2/web/index.html
 \
-This is our approach:
+This is the explanation of our approach:
 1. Open the website, then click on 'Explore' and find Indonesia
 2. After that, do inspect element to that website and find the JSON url (for Indonesia region the JSON name is ID.json, so find this). Here for the detail:
 ![Inspect Element](Images_For_Readme/inspect_element.png) 
-3. Then, run the notebook on Google Colab for scraping each url of all image. The notebook is included in Landmark Recognition Model folder above.
+3. Then, run the notebook on Google Colab for scraping each url of all image. The notebook is included in 'Landmark Recognition Model' folder above.
 4. After we get all image link. Download all that link using chrome extention.
 5. Upload all downloaded images to google drive.
 6. Resize images to 800x800 using notebook that included in Landmark Recognition Model folder above.
-7. Download resized images, then rename all images and folders into number, this is for the id later use in code. The renamed dataset is already in Landmark Recognition Model folder above.
-8. Zip that renamed dataset, then upload it on kaggle.
-9. Use that dataset in source code.
+7. Download resized images, then rename all images and folders into number, this is for the id later use in code. The renamed dataset is already in 'Landmark Recognition Model' folder above.
+8. Make csv file according to each file name. You can see csv file like in 'Landmark Recognition Model'folder above.
+9. Zip that renamed dataset, then upload it on kaggle.
+10. Use that dataset in source code.
 
