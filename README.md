@@ -9,6 +9,7 @@ We built a sexual image detection model to filter inappropriate contents from th
 ### 2. Landmark Recognition
 We built the landmark detection model (especially Indonesian landmark) using MobileNetV2 with the input shape 300 x 300 x 3, and added a few layers such as GlobalAveragePooling2D and dense layers with ‘softmax’ activation as the output activation.\
 The dataset is from [Google Landmark Recognition Competition 2020](https://www.kaggle.com/competitions/landmark-recognition-2020/data "Click to go to this link") on Kaggle that are free to use. It has landmark images from all around the world, but we choose Indonesian landmarks only because we think this is suitable for our MVP (Minimum Viable Product). Also because of the time limit for 1 month to finish this capstone project.\
+In total we have 1260 images from 18 Indonesian landmarks. For training 50 images and validation 20 images per landmark. So we use only 70 images per landmark. Because the total amount of Indonesian landmarks image from Google Landmark Recognition Competition 2020 dataset is small compared to other landmark and many of them are old school images and irrelevant today. So we have to manually clean the data and we set up treshold minimum 70 images per landmark.\
 \
 How can we get the Indonesian landmarks dataset only?
 
@@ -19,7 +20,7 @@ This is the explanation of our approach:
 1. Open the website, then click on 'Explore' and find Indonesia
 2. After that, do inspect element to that website and find the JSON url (for Indonesia region the JSON name is ID.json, so find this). Here for the detail:
 ![Inspect Element](Images_For_Readme/inspect_element.png) 
-3. Then, run the notebook on Google Colab for scraping each url of all image. The notebook is included in 'Landmark Recognition Model' folder above.
+3. Then, run the notebook on Google Colab for scraping each url of all image. This notebook also filter only more than 70 images per landmark or per class. The notebook is included in 'Landmark Recognition Model' folder above.
 4. After we get all image link. Download all that link using chrome extention.
 5. Upload all downloaded images to google drive.
 6. Resize images to 800x800 using notebook that included in Landmark Recognition Model folder above.
